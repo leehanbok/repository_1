@@ -1,3 +1,6 @@
+
+import cv2
+
 if __name__ == "__main__":
     print("Hello world")
-    print("Hello world2")
+    print(cv2.__version__)  ## 4.5.4-dev
