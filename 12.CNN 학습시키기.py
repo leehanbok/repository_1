@@ -88,6 +88,7 @@ model.add(layers.Convolution2D(32, (3, 3), activation=activations.relu, input_sh
 model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 
 # 아래에 지시상항에 있는 모델 구조가 되도록 나머지 모델 구조를 선언해주세요.
+# kernel_size = (3, 3) cf)LeNet = (5,5) (특징이더많다)
 model.add(layers.Convolution2D(64, (3, 3), activation=activations.relu))
 model.add(layers.MaxPooling2D(pool_size=(2, 2)))
 
